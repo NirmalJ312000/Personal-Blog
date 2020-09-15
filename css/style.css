@@ -1,0 +1,87 @@
+body{
+	margin: 0;
+	padding: 0;
+	height: 200vh;
+	font-family: Century Gothic;
+}
+header{
+	background-image: url(../1.jpg);
+	height: 100vh;
+	position: relative;
+	background-size: cover;
+	background-position: center;
+}
+ul{
+	float: right;
+	list-style-type: none;
+	margin-top: 14px;
+	margin-right: 25px;
+}
+ul li{
+	display: inline-block;
+}
+ul li a{
+	text-decoration: none;
+	color: #fff;
+	padding: 3px 15px;
+	border: 1px solid transparent;
+	transition: 0.2s ease;
+}
+ul li a:hover{
+	background-color: #33F9FF;
+	color: #000;
+	box-shadow: 0 0 10px #33F9FF, 0 0 40px #33F9FF, 0 0 80px #33F9FF;
+	transitio-delay: 1s;
+}
+#particles-js
+{
+	height: 100%;
+	background: #262626;
+	position: realtive;
+	top: 100vh;
+}
+
+.card img{
+	float: left;
+	width: 700px;
+	height: auto;
+	margin-left: 325px;
+	margin-top: 100px;
+}
+
+.about{
+	position: absolute;
+	top: 97vh;
+	margin-left: 550px;
+	color: #fff;
+	font-size: 25px;
+	text-decoration: underline; 
+}
+
+.details{
+	
+	position: absolute;
+	top: 182vh;
+	margin-left: 370px;
+	text-align: center;
+	color: #fff;
+	font-size: 10px;
+}
+
+.contact{
+	position: absolute;
+	top: 220vh;
+	margin-left: 550px;
+	color: #fff;
+	font-size: 25px;
+	text-decoration: underline; 
+}
+
+.contact_details{
+	position: absolute;
+	top: 240vh;
+	margin-left: 433px;
+	text-align: center;
+	color: #fff;
+	font-size: 14px;
+}

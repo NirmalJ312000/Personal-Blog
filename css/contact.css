@@ -1,0 +1,31 @@
+body{
+	margin: 0;
+	padding: 0;
+	height: 100%;
+	font-family: Century Gothic;
+}
+
+#particles-js
+{
+	height: 100%;
+	background: #262626;
+	position: realtive;
+}
+
+.contact{
+	position: absolute;
+	top: 10vh;
+	margin-left: 550px;
+	color: #fff;
+	font-size: 25px;
+	text-decoration: underline; 
+}
+
+.contact_details{
+	position: absolute;
+	top: 30vh;
+	margin-left: 433px;
+	text-align: center;
+	color: #fff;
+	font-size: 14px;
+}
